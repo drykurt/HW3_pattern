@@ -1,0 +1,53 @@
+void setup() {
+  
+ size (800,600);
+ //smooth();
+}
+
+void draw() {
+  
+background (#F2E6E6);
+noStroke();
+noFill();
+
+int i = 4;
+
+
+for (int y = 0; y <= height; y+= 100) {
+  for (int x = 0; x <= width; x += 100) {
+    
+    
+         
+    fill (0,20);
+    noStroke();
+    ellipse (x+30, y+30, 140,140);
+    
+    
+       
+    fill (0,25);
+    noStroke();
+    ellipse (x+10, y+10, 180,180);
+    
+    
+     fill (0,30);
+    noStroke();
+    ellipse (x+10, y+10, 200,200);
+    
+    
+    
+  
+  
+    
+    i ++;
+    
+   }
+ }
+
+ println(i);
+
+}
+    
+    
+    
+    
+    
